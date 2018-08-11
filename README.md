@@ -1,6 +1,6 @@
-# Clojure Project using CLI and Deps
+# Simple HTTP Service using Clojure
 
-A simple application that uses Clojure CLI and deps.edn.
+A simple HTTP service using Clojure CLI and deps.edn.
 
 ## Requirements
 
@@ -8,16 +8,11 @@ The sample application has the following requirements.
 
 * Java 10.0.2
 * Clojure 1.9.0
+* Ring 1.7.0-RC1
 
 ## Usage
 
 ### From the command line
-
-To run the sample application.
-
-~~~ bash
-clj -m hello.core
-~~~
 
 To execute the test case.
 
@@ -26,12 +21,6 @@ clj -A:test
 ~~~
 
 ### Using the included Makefile
-
-To run the sample application.
-
-~~~ bash
-make run
-~~~
 
 To execute the test case.
 
@@ -45,3 +34,4 @@ make test
 * [Clojure](https://clojure.org/index)
 * [Clojure Deps and CLI Guide](https://clojure.org/guides/deps_and_cli)
 * [Cognitect labs test-runner](https://github.com/cognitect-labs/test-runner)
+* [Official Ring Repositories](https://github.com/ring-clojure)
