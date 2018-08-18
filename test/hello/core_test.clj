@@ -8,4 +8,4 @@
     (t/is (= (hc/handler (mock/request :get "/"))
              {:status 200
               :headers {"Content-Type" "text/plain"}
-              :body {:message "Hello World!"}}))))
+              :body "Hello World!"}))))
